@@ -24,7 +24,7 @@ public:
 	}
 };
 
-int main10()
+int main2_3()
 {
 	return 0;
 }

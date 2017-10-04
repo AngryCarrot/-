@@ -82,6 +82,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -110,13 +113,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10.约瑟夫环.cpp" />
+    <ClCompile Include="11.2.变位词排序.cpp" />
+    <ClCompile Include="11.5.找出字符串.cpp" />
+    <ClCompile Include="11.6.矩阵元素查找.cpp" />
+    <ClCompile Include="11.7.叠罗汉.cpp" />
+    <ClCompile Include="11.8.X的秩.cpp" />
+    <ClCompile Include="11.9.数组中的逆序对.cpp" />
+    <ClCompile Include="_11.3.元素查找.cpp" />
     <ClCompile Include="7.5.平分的直线.cpp" />
     <ClCompile Include="7.6.穿点最多的直线.cpp" />
     <ClCompile Include="9.1.上楼梯.cpp" />
     <ClCompile Include="7.7.第k个数.cpp" />
+    <ClCompile Include="9.10.堆箱子.cpp" />
     <ClCompile Include="9.2.机器人走方格.cpp" />
     <ClCompile Include="9.3.魔术索引.cpp" />
     <ClCompile Include="9.4.集合的子集.cpp" />
+    <ClCompile Include="9.5.字符串排列.cpp" />
+    <ClCompile Include="9.6.合法序列判断.cpp" />
+    <ClCompile Include="9.7.洪水.cpp" />
+    <ClCompile Include="9.8.硬币表示.cpp" />
+    <ClCompile Include="9.9.N皇后问题.cpp" />
     <ClCompile Include="二叉树中和为某一值的路径.cpp" />
     <ClCompile Include="二进制插入.cpp" />
     <ClCompile Include="倒数第K个结点.cpp" />
@@ -134,7 +151,7 @@
     <ClCompile Include="确定字符串互异.cpp" />
     <ClCompile Include="碰撞的蚂蚁.cpp" />
     <ClCompile Include="翻转子串.cpp" />
-    <ClCompile Include="访问单个节点的删除.cpp" />
+    <ClCompile Include="2.3.访问单个节点的删除.cpp" />
     <ClCompile Include="输出单层节点.cpp" />
     <ClCompile Include="链式A+B.cpp" />
     <ClCompile Include="链表分割.cpp" />

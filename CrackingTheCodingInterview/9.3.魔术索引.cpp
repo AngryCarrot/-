@@ -47,7 +47,7 @@ public:
 	}
 
 	// ĞèÒªËÑË÷×óÓÒÁ½±ß
-	bool findMagicIndex(vector<int> A, int n) {
+	bool findMagicIndex2(vector<int> A, int n) {
 		// write code here
 		return findMagic(A, 0, n - 1);
 	}
@@ -83,4 +83,5 @@ int main9_3()
 		}
 		sln.findMagicIndex(nums, n);
 	}
+	return 0;
 }

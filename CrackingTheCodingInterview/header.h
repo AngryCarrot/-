@@ -19,3 +19,5 @@ using namespace std;
 
 
 const string INPUT = "D:\\Workspace\\VSProject\\input.txt";
+
+#define FREOPEN freopen(INPUT.c_str(), "r", stdin)
