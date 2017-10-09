@@ -16,6 +16,10 @@
 	（2）、当 c = 1;时，说明 a < b;计算结果为b；
 */
 
+
+/*
+上述方法看似可行，实则不挤。因为如果a-b溢出的话，这段代码就行不通了。*/
+
 class Max {
 public:
 	int getMax(int a, int b) {
