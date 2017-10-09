@@ -122,6 +122,7 @@
     <ClCompile Include="11.9.数组中的逆序对.cpp" />
     <ClCompile Include="17.1.无缓存交换.cpp" />
     <ClCompile Include="17.4.无比较max.cpp" />
+    <ClCompile Include="17.6.最小调整有序.cpp" />
     <ClCompile Include="5.2.二进制小数.cpp" />
     <ClCompile Include="5.3.最接近的数.cpp" />
     <ClCompile Include="5.5.整数转化.cpp" />
