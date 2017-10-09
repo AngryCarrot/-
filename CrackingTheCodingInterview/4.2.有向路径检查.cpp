@@ -1,5 +1,3 @@
-#pragma once
-
 #include "header.h"
 
 struct UndirectedGraphNode {
@@ -12,6 +10,14 @@ class Path {
 public:
 	bool checkPath(UndirectedGraphNode* a, UndirectedGraphNode* b) {
 		// write code here
+		if (a == nullptr || b == nullptr)
+		{
+			return false;
+		}
+		if (a == b)
+		{
+			return true;
+		}
 		// ¿Ó
 		return checkPathHelper(a, b) || checkPathHelper(b, a);
 	}
@@ -25,16 +31,16 @@ private:
 		{
 			auto c = q.front();
 			q.pop();
+			m[c] = 1;
 			for (auto item : c->neighbors)
 			{
 				if (b == item)
 				{
 					return true;
 				}
-				if (0 == m.count(item))
+				if (m[item] != 1)
 				{
 					q.push(item);
-					m[c] = 1;
 				}
 			}
 		}

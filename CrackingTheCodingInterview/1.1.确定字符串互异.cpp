@@ -1,5 +1,7 @@
 #include "header.h"
 
+
+
 class Different {
 public:
 	/*

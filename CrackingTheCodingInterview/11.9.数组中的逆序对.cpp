@@ -105,4 +105,5 @@ int main11_9()
 		}
 		sln.countBubbleSort(A, n);
 	}
+	return 0;
 }

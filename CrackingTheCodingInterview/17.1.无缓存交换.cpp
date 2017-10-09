@@ -17,7 +17,7 @@ public:
 	}
 };
 
-int main()
+int main17_1()
 {
 	return 0;
 }
